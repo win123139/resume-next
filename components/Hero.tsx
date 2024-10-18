@@ -10,8 +10,6 @@ const Hero = () => {
     return (
         <div className="pb-20 pt-10">
 
-
-
             {/**
              *  UI: grid
              *  change bg color to bg-black-100 and reduce grid color from

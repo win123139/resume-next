@@ -8,7 +8,7 @@ const Contact = () => {
 
         <div className="py-20" id="">
             <h1 className="heading">
-                <FlipWords words={words} duration="500" className="text-sky-500" />
+                <FlipWords words={words} duration={500} className="text-sky-500" />
                 <span>ME ?</span>
             </h1>
 

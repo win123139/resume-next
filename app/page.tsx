@@ -14,7 +14,10 @@ export default function Home() {
           className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
           <div className="max-w-7xl w-full ">
               <FloatingNav navItems={[
-                  {name: 'Home', link: '/', icon: <FaHome />}
+                  {name: 'Home', link: '/', icon: <FaHome />},
+                  {name: 'TimeLine', link: '/', icon: <FaHome />},
+                  {name: 'Tech', link: '/', icon: <FaHome />},
+                  {name: 'Contact', link: '/', icon: <FaHome />},
                   ]} />
               <Hero/>
               <Timeline data={timelineData} />
