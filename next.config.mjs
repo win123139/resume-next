@@ -4,6 +4,8 @@ const nextConfig = {
     reactStrictMode: false,
     images: {
         domains: ['assets.aceternity.com'],
+        loader: "custom",
+        loaderFile: './ImageLoader.js'
     },
 }
 
