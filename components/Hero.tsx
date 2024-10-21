@@ -31,7 +31,7 @@ const Hero = () => {
                     <div
                         className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
                         <TextGenerateEffect
-                            words="Hi, I'm Thien Full Stack Software Developer"
+                            words="Hello World, I'm Thien FullStack Developer"
                             className="text-center text-[20px] md:text-5xl lg:text-6xl"
                         />
                         <TextGenerateEffect

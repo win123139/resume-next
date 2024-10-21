@@ -1,6 +1,7 @@
 import {useState} from "react";
 import {cn} from "@/lib/utils";
 import GridGlobe from "./GridGlobe";
+import {Meteors} from "@/components/ui/Meteors";
 
 export const BentoGrid = ({
                               className,
@@ -101,6 +102,8 @@ export const BentoGridItem = ({
                     </div>
 
                     {id === 2 && <GridGlobe/>}
+                    {id === 3 && <Meteors number={30} />}
+
                 </div>
             </div>
         </div>

@@ -1,12 +1,22 @@
 import React from "react";
 import {Button} from "@/components/ui/MovingBorder";
 import {workExperience} from "@/data";
+import {TypewriterEffectSmooth} from "@/components/ui/Typewriter";
 const Experience = () => {
+    const words = [
+        {
+            text: "My",
+        },
+        {
+            text: "Tech stack",
+            className: "dark:text-sky-500",
+        }
+    ];
   return (
         <div className="py-20" id="">
-            <h1 className="heading">
-                My <span className="text-sky-500"> Tech stack</span>
-            </h1>
+            <div className="heading flex flex-col items-center justify-center">
+                <TypewriterEffectSmooth words={words} />
+            </div>
 
             <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
                 {workExperience.map((card) => (
