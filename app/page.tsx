@@ -7,7 +7,7 @@ import {timelineData} from "@/data";
 import Grid from "@/components/Grid";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
-import { BackgroundBeams} from "@/components/ui/BackgroundBeams";
+
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
               <Grid/>
               <Experience/>
               <Contact/>
-              <BackgroundBeams />
+
           </div>
       </main>
 );

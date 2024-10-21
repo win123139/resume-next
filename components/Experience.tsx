@@ -15,7 +15,7 @@ const Experience = () => {
   return (
         <div className="py-20" id="">
             <div className="heading flex flex-col items-center justify-center">
-                <TypewriterEffectSmooth words={words} />
+                <TypewriterEffectSmooth words={words} className="heading text-xl md:text-2xl"/>
             </div>
 
             <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">

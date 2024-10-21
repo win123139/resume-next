@@ -6,6 +6,7 @@ import {
     motion,
 } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import {BackgroundBeams} from "@/components/ui/BackgroundBeams";
 
 interface TimelineEntry {
     title: string;
@@ -85,6 +86,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                     />
                 </div>
             </div>
+            <BackgroundBeams />
         </div>
     );
 };
